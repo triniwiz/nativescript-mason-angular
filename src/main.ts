@@ -27,14 +27,14 @@ registerElement("div", () => Div);
 registerElement("img", () => Img);
 registerElement("text", () => Text);
 registerElement("p", () => P);
-registerElement("sspan", () => Span);
+registerElement("span", () => Span);
 registerElement("b", () => B);
 registerElement("h1", () => H1);
 registerElement("h2", () => H2);
 registerElement("h3", () => H3);
 registerElement("h4", () => H4);
 registerElement("code", () => Code);
-registerElement("sbutton", () => Button);
+registerElement("button", () => Button);
 
 runNativeScriptAngularApp({
   appModuleBootstrap: () => {

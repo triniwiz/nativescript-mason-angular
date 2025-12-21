@@ -14,7 +14,7 @@
     "@angular/router": "~20.2.0",
     "@nativescript/angular": "^20.0.0",
     "@nativescript/core": "~9.0.0",
-    "@triniwiz/nativescript-masonkit": "^1.0.0-beta.1",
+    "@triniwiz/nativescript-masonkit": "beta",
     "rxjs": "~7.8.0",
     "zone.js": "~0.15.0"
   },
@@ -26,7 +26,11 @@
     "@nativescript/types": "~9.0.0",
     "@nativescript/webpack": "~5.0.25",
     "@ngtools/webpack": "~20.2.0",
+    "patch-package": "^8.0.1",
     "tailwindcss": "~3.4.0",
     "typescript": "~5.8.0"
+  },
+  "scripts": {
+    "postinstall": "patch-package"
   }
 }

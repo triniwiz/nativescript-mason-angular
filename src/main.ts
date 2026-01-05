@@ -20,7 +20,7 @@ import {
   P,
   Span,
 } from "@triniwiz/nativescript-masonkit/web";
-import { Button, Img, View, Br} from "@triniwiz/nativescript-masonkit";
+import { Button, Img, View, Br, Input} from "@triniwiz/nativescript-masonkit";
 
 registerElement("view", () => View);
 registerElement("div", () => Div);
@@ -36,6 +36,7 @@ registerElement("h4", () => H4);
 registerElement("code", () => Code);
 registerElement("button", () => Button);
 registerElement("br", () => Br);
+registerElement("input", () => Input);
 
 runNativeScriptAngularApp({
   appModuleBootstrap: () => {
